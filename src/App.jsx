@@ -1,7 +1,17 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Hero, Navbar, Companies, Courses, Achievement } from "./components";
+import {
+  Hero,
+  Navbar,
+  Companies,
+  Courses,
+  Achievement,
+  Categories,
+  Feedback,
+  CTA,
+  Footer,
+} from "./components";
 import "./App.css";
 
 const App = () => {
@@ -12,6 +22,10 @@ const App = () => {
       <Companies />
       <Courses />
       <Achievement />
+      <Categories />
+      <Feedback />
+      <CTA />
+      <Footer />
     </div>
   );
 };

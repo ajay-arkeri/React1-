@@ -24,6 +24,11 @@
 .slick-prev {
   z-index: 99999;
 }
+
+.category-card .arrow-icon {
+  fill: white;
+}
+
 /* 
 .logo {
   height: 6em;
